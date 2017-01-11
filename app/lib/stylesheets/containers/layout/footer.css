@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  background-color: #00bcd4;
+  display: block;
+  position: fixed;
+  bottom: 0;
+}
+
+.item {
+  width: 50%;
+  display: inline-block;
+  background-color: #00bcd4;
+  color: white;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  &:hover {
+    background-color: $col_key;
+  }
+}
+
+.is_current {
+  background-color: #22cdf6;
+}
